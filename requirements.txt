@@ -2,7 +2,7 @@
 uvicorn==0.24.0
 python-multipart==0.0.6
 openai-whisper==20231117
-torch==2.7.1
+torch==2.1.2
 numpy==1.24.3
 ffmpeg-python==0.2.0
 textblob==0.18.0
