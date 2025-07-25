@@ -17,7 +17,7 @@ class YouTubeDownloadRequest(BaseModel):
     url: str
     quality: str = 'best' # Opções: best, 720p, 480p, audio
 
-# Usado para buscar apenas os metadados (título, miniatura, etc.) de um vídeo
+# Usado para buscar apenas os metadados (título, miniatura, etc.) de um vídeos
 class YouTubeURLRequest(BaseModel):
     url: str
 
