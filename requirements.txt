@@ -17,3 +17,4 @@ psutil
 pytube
 itsdangerous
 python-jose[cryptography]
+yt-dlp==2024.05.27
