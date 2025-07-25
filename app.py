@@ -1,4 +1,4 @@
-﻿from fastapi import FastAPI, UploadFile, File, HTTPException, Form, Request, BackgroundTasks, Response, Body
+from fastapi import FastAPI, UploadFile, File, HTTPException, Form, Request, BackgroundTasks, Response, Body
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
@@ -58,7 +58,7 @@ app = FastAPI(title="Video Processing API", version="5.0.0")
 # Middleware para permitir requisições de diferentes origens (CORS)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:8000", "http://127.0.0.1:8000", "http://localhost:3000"],
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:8000", "http://127.0.0.1:8000", "http://localhost:3000", "https://noxsub-45150.web.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
